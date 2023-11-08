@@ -1,6 +1,6 @@
-package pt.utad.mei.aps.prototype;
+package trigonometry;
 
-public abstract class Shape {
+abstract class Shape {
 
     private int x;
     private int y;

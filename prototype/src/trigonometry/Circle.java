@@ -1,7 +1,6 @@
-package pt.utad.mei.aps.prototype;
+package trigonometry;
 
-public class Circle extends Shape {
-
+public class Circle {
     private double radius;
 
     public Circle(double radius, int x, int y, String color) {
@@ -27,7 +26,7 @@ public class Circle extends Shape {
     }
 
     @Override
-    public Shape Clone() {
+    public Shape xClone() {
         return new Circle(this);
         // return new Circle(this.radius this.getX(), this.getY(), this.getColor());
     }
