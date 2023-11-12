@@ -1,4 +1,4 @@
-package pt.utad.mei.aps.decorator;
+package printer;
 
 public interface ObjetoEstampavel {
     public String getName();

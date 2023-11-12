@@ -1,8 +1,13 @@
-package pt.utad.mei.aps.decorator;
+package printer;
 
 public class Mug implements ObjetoEstampavel {
     private String _name;
     private double _price;
+
+    public Mug() {
+        _name = "Mug";
+        _price = 20;
+    }
 
     @Override
     public String getName() {
