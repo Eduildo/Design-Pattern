@@ -14,6 +14,6 @@ public class Color {
     }
 
     public void Draw(int x, int y, int radius) {
-        System.out.println("Drawing a circle @[" + x + " " + y + "] with" + radius);
+        System.out.println("Drawing a circle @[" + x + " " + y + "] with radius " + radius);
     }
 }
