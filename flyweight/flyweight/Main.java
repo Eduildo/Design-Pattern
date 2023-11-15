@@ -17,6 +17,10 @@ public class Main {
         _objects.add(new Circulo(ColorFactory.getColor("red"), 10, 20, 300));
         _objects.add(new Circulo(ColorFactory.getColor("red"), 10, 20, 300));
 
+        for (Circulo circulo : _objects) {
+            circulo.Draw();
+        }
+
     }
 
 }

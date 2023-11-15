@@ -18,7 +18,7 @@ public class Circulo {
     }
 
     // operation
-    public void Draw(int x, int y, int radius) {
+    public void Draw() {
         _color.Draw(_x, _y, _radius);
     }
 
