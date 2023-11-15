@@ -9,7 +9,7 @@ public class ColorFactory {
     // getFlyweight(repeatingState)
     public static Color getColor(String nome) /* int R, int G, int B) */ {
         if (_colorMap.containsKey(nome) == false) {
-            switch (name) {
+            switch (nome) {
                 case "red":
                     _colorMap.put(nome, new Color(nome, 255, 0, 0));
                     break;
@@ -29,7 +29,7 @@ public class ColorFactory {
             }
 
         }
-        return _colorMap.get(nome);
+        return (Color) _colorMap.get(nome);
 
     }
 
