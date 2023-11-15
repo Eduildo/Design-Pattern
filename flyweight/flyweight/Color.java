@@ -1,3 +1,5 @@
+package flyweight;
+
 public class Color {
     private String _name;
     private int _r;

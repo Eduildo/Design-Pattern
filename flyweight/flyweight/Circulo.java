@@ -1,3 +1,4 @@
+package flyweight;
 
 //Context
 public class Circulo {
@@ -18,7 +19,7 @@ public class Circulo {
 
     // operation
     public void Draw(int x, int y, int radius) {
-        _color(x, y, radius);
+        _color.Draw(x, y, radius);
     }
 
 }
